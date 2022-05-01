@@ -25,7 +25,7 @@ const PostFullDetails = (props) => {
       .then((json) => {
         setPostComments(json);
       });
-  }, []);
+  }, [id]);
   const gender = ["men", "women"];
   return (
     <Box sx={{ width: "100%" }}>
